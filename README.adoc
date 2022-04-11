@@ -288,4 +288,6 @@ dfx canister --no-wallet call btc get_utxos "(record { address = \"$BTC_ADDRESS\
 ```
 dfx canister --no-wallet call btc get_balance "(record { address = \"$BTC_ADDRESS\"; min_confirmations = opt 6})"
 dfx canister --no-wallet call btc get_utxos "(record { address = \"$BTC_ADDRESS\"; min_confirmations = opt 6})"
+
+# to do
 ```
